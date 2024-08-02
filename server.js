@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 8080;
  
 //listen
 app.listen(PORT, () => {
-    console.log('Node Server Running In ${process.env.DEV_MODE} ModeOn Port ${process.env.PORT}'.bgBlue.white
+    console.log(`Node Server Running In ${process.env.DEV_MODE} ModeOn Port ${process.env.PORT}`.bgBlue.white
     );
 });
 
